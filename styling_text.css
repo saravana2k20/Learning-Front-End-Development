@@ -1,0 +1,109 @@
+body{
+    background-color:rgb(248, 230, 204);
+}
+h1{
+    color :indigo;
+    text-align: center;
+    font-size: 50px;
+    letter-spacing:1mm;
+    word-spacing:2px;
+    text-transform: Capitalize;
+    font-family: 'Roboto', sans-serif;
+}
+
+p{
+    color :rgb(133, 114, 114);
+    padding-left: 20px;
+    font-size:30px;
+    font-weight: 1000;
+    letter-spacing:0.8mm;
+    line-height: 2;
+    word-spacing:2px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#cover-pic{
+    display : block;
+    padding-left: 0%;
+    padding-right: 0%;
+    width: 100%;
+    height:90%;
+}
+
+a{
+    text-decoration: none;
+    font-style:italic;
+}
+
+h2{
+    color :rgb(216, 70, 13);
+    padding-left:10px;
+    padding-bottom: 0;
+    font-size: 40px;
+    letter-spacing:1mm;
+    word-spacing:2px;
+    text-transform: lowercase;
+    font-family: 'Roboto', sans-serif;
+}
+b{
+    font-weight: 900;
+}
+
+/*
+text-align:
+    justify - all the text are adjusted along the every free space
+    center - text are cetered on the screen
+    right - text are aligned to right
+    left - text are aligned to left
+
+Text-Color:
+    color : give color
+
+font-size: 
+    you can specify the size of the text 
+
+font-style:
+    italic
+
+font-weight:
+    thickness of the text 
+
+text-decoration:(e.g: to remove the underlines from links)
+    underline : under line the text
+    overline : line over the text 
+    line-through : line strike the text
+    none : no line
+
+text-transform: 
+    to make our text uppercase, lowercase, capitalize
+
+    : uppercase; 
+    : lowercase;
+    : capitalize;
+
+letter-spacing:
+    space between the letters
+    : give values in both -ve(decrease) and +ve(increase)
+
+word-spacing:
+    space between the words 
+    : give values in both -ve(overlapping words) and +ve (words at distant)
+
+line-height: 
+    spaces between the lines 
+    has default value 1
+
+font-family: 
+    you can search for online google fonts
+    then you can see lot of awesome fonts 
+
+    select the fonts and get the font name and link to the font
+
+    you can customize the fonts too.
+
+    put the link to the font in <head tag> using <link> tag and then assign the name of the font to the font-family
+
+
+
+
+*/

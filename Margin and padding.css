@@ -1,0 +1,27 @@
+body{
+    background-color: bisque;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+}
+#first-para{
+    border: 5px dashed green;
+    border-radius: 7px;
+    padding : 16px;
+}
+p{
+    border : 5px solid green;
+    border-radius: 7px;
+    padding : 100px;
+    /*The below four lines will override the above one*/
+    padding-left:6px;
+    padding-right:4px;
+    padding-top:8px;
+    padding-bottom:20px;
+}
+h3{
+    /*padding: 10px 10px 10px 10px;*/
+}
+#margin{
+    margin : 30px;
+    padding : 20px;
+}

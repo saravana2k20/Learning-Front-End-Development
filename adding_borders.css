@@ -1,0 +1,46 @@
+p{
+    border-style:ridge;
+    border-width:6px;
+    border-color:rgb(17, 190, 84);
+    border-radius:14px;
+}
+
+h1{
+    border : 5px solid green;
+    border-radius: 14px;
+}
+h2{
+    border : 3px dotted orange;
+    border-radius : 14px;
+}
+h3{
+    border-top : 2px dashed black;
+    border-bottom : 2px groove pink;
+    border-right : 2px dotted rgb(65, 87, 65);
+    border-left : 2px ridge gold;
+    border-radius : 14px;
+}
+
+
+/*
+<h2>for defining a para we need three values<h2>
+     <h3>a)border-style</h3>
+        <p>border-top-style
+        border-right-style
+        border-bottom-style
+        border-left-style<p>
+     <h3>b)border-width</h3>
+     <h3>c)border-color</h3>
+
+    <h3>--------or------------</h3>
+    <h2>Shorthand property for defining border</h2>
+    <p>
+    border: width style color;(shorthand property)
+    </p>
+    <h2>Shorthand property for defining </h2>
+    <p>border-side:width style color</p>
+
+    <h2>d)border-radius</h2>
+    <p>to make the corners of the border curved</p>
+
+*/
